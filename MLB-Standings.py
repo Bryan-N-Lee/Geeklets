@@ -15,16 +15,16 @@ url="https://erikberg.com/mlb/standings.xml"
 hometeam = "Athletics"
 
 Team_abbrev = {	"Arizona": "ARI", "Atlanta": "ATL", "Baltimore": "BAL",
-				"Boston": "BOS", "Cincinnati": "CIN", "Cleveland": "CLE",
-				"Colorado": "COL", "Detroit": "DET", "Houston": "HOU",
-				"Kansas City": "KC", "Miami": "MIA", "Milwaukee": "MIL",
-				"Minnesota": "MIN", "Oakland": "OAK", "Philadelphia": "PHI",
-				"Pittsburgh": "PIT", "San Diego": "SD", "San Francisco": "SF",
-				"Seattle": "SEA", "St. Louis": "STL", "Tampa Bay": "TB",
-				"Texas": "TEX", "Toronto": "TOR", "Washington": "WAS" }
+		"Boston": "BOS", "Cincinnati": "CIN", "Cleveland": "CLE",
+		"Colorado": "COL", "Detroit": "DET", "Houston": "HOU",
+		"Kansas City": "KC", "Miami": "MIA", "Milwaukee": "MIL",
+		"Minnesota": "MIN", "Oakland": "OAK", "Philadelphia": "PHI",
+		"Pittsburgh": "PIT", "San Diego": "SD", "San Francisco": "SF",
+		"Seattle": "SEA", "St. Louis": "STL", "Tampa Bay": "TB",
+		"Texas": "TEX", "Toronto": "TOR", "Washington": "WAS" }
 
 Team_abbrev_multi = {	"Cubs": "CHC", "White Sox": "CHW", "Angels": "LAA",
-						"Dodgers": "LAD", "Mets": "NYM", "Yankees": "NYY" }
+			"Dodgers": "LAD", "Mets": "NYM", "Yankees": "NYY" }
 
 root = ET.parse(urllib2.urlopen(url)).getroot()
 #root = ET.parse(".../standings.xml").getroot()
