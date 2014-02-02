@@ -1,5 +1,10 @@
 #!/usr/bin/python
 
+'''
+	Author: Bryan Lee
+	Created On: 1/31/14
+'''
+
 import elementtree.ElementTree as ET
 import urllib2
 
